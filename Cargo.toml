@@ -1,0 +1,18 @@
+[package]
+name = "banking-system"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.5.7", features = ["derive"] }
+clap_bench = { git = "https://github.com/clap-rs/clap", version = "0.0.0" }
+clap_builder = { git = "https://github.com/clap-rs/clap", version = "4.5.7" }
+clap_complete_fig = { git = "https://github.com/clap-rs/clap", version = "4.5.1" }
+clap_complete_nushell = { git = "https://github.com/clap-rs/clap", version = "4.5.2" }
+clap_derive = { git = "https://github.com/clap-rs/clap", version = "4.5.5" }
+clap_lex = { git = "https://github.com/clap-rs/clap", version = "0.7.1" }
+clap_mangen = { git = "https://github.com/clap-rs/clap", version = "0.2.21" }
+rand = "0.8.5"
+rusqlite = { version = "0.31.0", features = ["backup"] }
